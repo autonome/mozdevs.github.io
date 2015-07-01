@@ -1,0 +1,68 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(#F6F4EC, #D7D3C8);
+	background-attachment: fixed;
+	padding: 1rem;
+	line-height: 1.6;
+	font-family: "Times New Roman", serif;
+}
+
+article {
+	margin-bottom: 2rem;
+}
+
+p {
+	margin: 1rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+	margin-bottom: 1rem;
+	line-height: 1.1;
+}
+
+
+ul, ol {
+	list-style-position: inside;
+	margin: 1rem 0;
+}
+
+/* Overriding lanyrd stubborn stylesheets */
+body .lanyrd-guide-embed {
+	font-family: inherit;
+	color: inherit;
+	line-height: inherit;
+}
+
+body .lanyrd-guide-embed a:link {
+	color: inherit;
+	border: none;
+}
+
+body .lanyrd-guide-embed .annotations-content {
+	background: none;
+}
+
+.lanyrd-guide-embed abbr {
+	text-decoration: none;
+}
+
+body .lanyrd-guide-embed .tags a:link,
+body .lanyrd-guide-embed .tags a:hover {
+	background: none;
+	color: inherit;
+	border: inherit;
+	padding: 0px;
+}
